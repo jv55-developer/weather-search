@@ -1,0 +1,96 @@
+.weather-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        border-radius: 40px;
+    
+        .btn-purple {
+            background-color: #cdabff;
+            color: white;
+        }
+    
+        .btn-purple:hover{
+            background-color: white;
+            border: 2px solid #cdabff;
+            color: #cdabff;
+        }
+
+        .location-card {
+
+            display: flex;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.621);
+            width:75%;
+            background-color: #cff5ff !important;
+            justify-content: space-between;
+
+            .first-section {
+                display: flex;
+
+                div p {
+                    line-height: 1.2em;
+                    color: rgb(90, 90, 90);
+                }
+    
+                .img-city {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+
+
+            .img-radio {
+                width: 40px;
+                height: 40px;
+            }
+
+            .img-radio:hover{
+                cursor: pointer;
+            }
+        }
+
+        .weather-image {
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 120px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.621);
+        }
+
+        .clouds {
+            background: url('./assets/clouds.png');
+        }
+        
+        .thunderstorm {
+            background: url('./assets/thunderstorm.png');
+        }
+
+        .drizzle {
+            background: url('./assets/drizzle.png');
+        }
+
+        .rain {
+            background: url('./assets/rain.png');
+        }
+
+        .snow {
+            background: url('./assets/snow.png');
+        }
+
+        .clear {
+            background: url('./assets/clear.png');
+        }
+
+        .mist, .smoke, .haze, .dust, .fog, .stand, .ash, .squall, .tornado {
+            background: url('./assets/atmosphere.png');
+        }
+       
+    }
+}
+
